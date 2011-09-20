@@ -1,5 +1,5 @@
 Name:			mednafen
-Version:		0.9.17.1
+Version:		0.9.18
 Release:		%mkrel 1
 
 Summary:	Multi-consoles Emulator
