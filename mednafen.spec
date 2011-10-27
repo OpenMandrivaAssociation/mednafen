@@ -1,6 +1,6 @@
 Name:			mednafen
 Version:		0.9.18
-Release:		%mkrel 1
+Release:		%mkrel 2
 
 Summary:	Multi-consoles Emulator
 License:	GPLv2+
