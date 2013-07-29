@@ -1,22 +1,21 @@
-Name:		mednafen
-Version:	0.9.28
-Release:	1
-
 Summary:	Multi-consoles Emulator
+Name:		mednafen
+Version:	0.9.29
+Release:	1
 License:	GPLv2+
-URL:		http://mednafen.sourceforge.net/
 Group:		Emulators
+Url:		http://mednafen.sourceforge.net/
 Source0:	%{name}-%{version}-wip.tar.bz2
 BuildRequires:	bison
-BuildRequires:	pkgconfig(libcdio)
-BuildRequires:	pkgconfig(vorbis)
-BuildRequires:	pkgconfig(SDL_net)
-BuildRequires:	pkgconfig(sndfile)
 BuildRequires:	pkgconfig(alsa)
-BuildRequires:	pkgconfig(zlib)
-BuildRequires:	pkgconfig(sdl)
 BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(glu)
+BuildRequires:	pkgconfig(libcdio)
+BuildRequires:	pkgconfig(sdl)
+BuildRequires:	pkgconfig(SDL_net)
+BuildRequires:	pkgconfig(sndfile)
+BuildRequires:	pkgconfig(vorbis)
+BuildRequires:	pkgconfig(zlib)
 
 %description
 Mednafen emulates several consoles:
