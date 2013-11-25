@@ -1,6 +1,6 @@
 Summary:	Multi-consoles Emulator
 Name:		mednafen
-Version:	0.9.32
+Version:	0.9.32.1
 Release:	1
 License:	GPLv2+
 Group:		Emulators
@@ -34,6 +34,13 @@ Mednafen emulates several consoles:
 
 Warning: No GUI.
 
+%files -f %{name}.lang
+%doc ABOUT-NLS AUTHORS COPYING ChangeLog INSTALL TODO Documentation/*
+%{_bindir}/%{name}
+%{_datadir}/%{name}/c68k_op0.inc
+
+#----------------------------------------------------------------------------
+
 %prep
 %setup -q -n %{name}
 find ./src -type f -exec chmod 644 '{}' +
@@ -48,9 +55,4 @@ autoreconf -i
 %makeinstall_std
 
 %find_lang %{name}
-
-%files -f %{name}.lang
-%doc ABOUT-NLS AUTHORS COPYING ChangeLog INSTALL TODO Documentation/*
-%{_bindir}/%{name}
-%{_datadir}/%{name}/c68k_op0.inc
 
