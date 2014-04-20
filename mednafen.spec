@@ -1,11 +1,11 @@
 Summary:	Multi-consoles Emulator
 Name:		mednafen
-Version:	0.9.32.1
+Version:	0.9.33.3
 Release:	1
 License:	GPLv2+
 Group:		Emulators
 Url:		http://mednafen.sourceforge.net/
-Source0:	%{name}-%{version}-wip.tar.bz2
+Source0:	%{name}-%{version}.tar.bz2
 BuildRequires:	bison
 BuildRequires:	pkgconfig(alsa)
 BuildRequires:	pkgconfig(gl)
@@ -35,7 +35,7 @@ Mednafen emulates several consoles:
 Warning: No GUI.
 
 %files -f %{name}.lang
-%doc ABOUT-NLS AUTHORS COPYING ChangeLog INSTALL TODO Documentation/*
+%doc ABOUT-NLS AUTHORS COPYING ChangeLog TODO Documentation/*
 %{_bindir}/%{name}
 %{_datadir}/%{name}/c68k_op0.inc
 
