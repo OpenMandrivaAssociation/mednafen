@@ -12,7 +12,7 @@ BuildRequires:	pkgconfig(gl)
 BuildRequires:	pkgconfig(glu)
 BuildRequires:	pkgconfig(libcdio)
 BuildRequires:	pkgconfig(sdl)
-BuildRequires:	pkgconfig(SDL_net)
+BuildRequires:	SDL_net-devel
 BuildRequires:	pkgconfig(sndfile)
 BuildRequires:	pkgconfig(vorbis)
 BuildRequires:	pkgconfig(zlib)
