@@ -1,6 +1,6 @@
 Summary:	Multi-consoles Emulator
 Name:		mednafen
-Version:	0.9.33.3
+Version:	0.9.36.2
 Release:	1
 License:	GPLv2+
 Group:		Emulators
@@ -48,7 +48,7 @@ find ./src -type d -exec chmod 755 '{}' +
 
 %build
 autoreconf -i
-%configure2_5x
+CFLAGS="-O2 -mtune=atom" CXXFLAGS="-O2 -mtune=atom" %configure2_5x
 %make
 
 %install
