@@ -1,7 +1,7 @@
 Summary:	Multi-consoles Emulator
 Name:		mednafen
 Version:	0.9.36.4
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Emulators
 Url:		http://mednafen.sourceforge.net/
