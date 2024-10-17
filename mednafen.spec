@@ -4,7 +4,7 @@ Version:	0.9.36.4
 Release:	2
 License:	GPLv2+
 Group:		Emulators
-Url:		http://mednafen.sourceforge.net/
+Url:		https://mednafen.sourceforge.net/
 Source0:	%{name}-%{version}.tar.bz2
 BuildRequires:	bison
 BuildRequires:	pkgconfig(alsa)
