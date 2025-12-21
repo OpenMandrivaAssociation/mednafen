@@ -6,6 +6,7 @@ License:	GPLv2+
 Group:		Emulators
 Url:		https://mednafen.sourceforge.net/
 Source0:	%{name}-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:	bison
 BuildRequires:	pkgconfig(alsa)
 BuildRequires:	pkgconfig(gl)
